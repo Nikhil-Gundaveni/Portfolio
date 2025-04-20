@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Gundaveni</title>
+    <link rel="shortcut icon"  type="image/x-icon">
+   <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Portfolio</a>
+    
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+    
+                    <!-- Download Resume Button -->
+                    <a href="Nikhil_Resume.pdf" download class="btn btn-outline-light btn-resume ms-lg-3 mt-2 mt-lg-0">Download Resume</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+    
+    <!-- About me -->
+    <section class="about-me" id="home">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img id="profile-img" src="./Images/nani.jpg" class="d-block mx-lg-auto img-fluid" alt="profile img" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">
+                       <span id="hellotext">Hello I'm</span> <br id="nikhil">Nikhil Gundaveni<br> <span id="dynamic-text"></span>
+                    </h1>
+                    <p class="lead shadow-box small-text" id="description">
+                        Passionate and innovative Java Developer specializing in Spring Boot, MySQL, and front-end technologies (HTML/CSS). Experienced in building scalable, high-performance applications with a keen eye for clean code and efficient system design. Dedicated to solving complex problems through technology and continuously learning new advancements in software development. Seeking opportunities to create impactful solutions that drive business success.
+                    </p>
+    
+                    <!-- Buttons Section -->
+                    <div class="d-flex gap-3">
+                        <a href="Nikhil_Resume.pdf" download class="btn btn-primary custom-btn">Download Resume</a>
+                        <a href="mailto:nikhilgundaveni1025@gmail.com" class="btn btn-outline-primary custom-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- my Skills -->
+    <section class="mb-5">
+      <div class="container px-4 py-5" id="skills">
+          <h2 class="pb-2 border-bottom text-center">SKILLS</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <!-- Java Card -->
+              <div class="col">
+                  <div class="card skill-card" data-aos="fade-left">
+                      <div class="card-body text-center">
+                          <img src="./java-icon.svg" alt="Java" class="skill-icon">
+                          <h3 class="card-title">Java</h3>
+                          <p class="card-text">Proficient in Core Java with a strong understanding of OOPS concepts, Collection Frameworks, Exception handling,Access Modifiers and Multithreading.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- springboot Card -->
+               <div class="col">
+                  <div class="card skill-card" data-aos="fade-right">
+                      <div class="card-body text-center">
+                          <img src="./springBoot.svg" alt="springboot" class="skill-icon">
+                          <h3 class="card-title">Spring Boot</h3>
+                          <p class="card-text">Experienced in Spring Boot with expertise in Java, data structures, and backend development. Skilled in building REST APIs, database integration, and automation.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- HTML Card -->
+              <div class="col">
+                  <div class="card skill-card" data-aos="fade-left">
+                      <div class="card-body text-center">
+                          <img src="./html-1.svg" alt="HTML" class="skill-icon">
+                          <h3 class="card-title">HTML</h3>
+                          <p class="card-text">Skilled in building structured web pages using semantic HTML and responsive design techniques.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- CSS Card -->
+              <div class="col">
+                  <div class="card skill-card" data-aos="fade-right">
+                      <div class="card-body text-center">
+                          <img src="./css-3.svg" alt="CSS" class="skill-icon">
+                          <h3 class="card-title">CSS</h3>
+                          <p class="card-text">Proficient in styling web pages, responsive design, and layout techniques using Flexbox and Grid.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- JavaScript Card -->
+              <div class="col">
+                  <div class="card skill-card" data-aos="fade-left">
+                      <div class="card-body text-center">
+                          <img src="./javascript-1.svg" alt="JavaScript" class="skill-icon">
+                          <h3 class="card-title">JavaScript</h3>
+                          <p class="card-text">Experienced in writing dynamic and interactive web applications with modern ES6+ JavaScript.</p>
+                      </div>
+                  </div>
+              </div>
+               <!-- Bootstrap Card -->
+              <!-- <div >
+                <div class="card skill-card" data-aos="fade-left">
+                    <div class="card-body text-center">
+                        <img src="./bootstrap-5-1.svg" alt="Bootstrap" class="skill-icon">
+                        <h3 class="card-title">Bootstrap</h3>
+                        <p class="card-text">Experienced in building responsive, mobile-first designs with Bootstrap's grid and components.</p>
+                    </div>
+                </div>
+            </div> -->
+
+              <!-- MySQL Card -->
+              <div class="col">
+                  <div class="card skill-card" data-aos="fade-right">
+                      <div class="card-body text-center">
+                          <img src="./mysql-logo-pure.svg" alt="MySQL" class="skill-icon">
+                          <h3 class="card-title">MySQL</h3>
+                          <p class="card-text">Skilled in writing SQL queries, database design, and relational database management.</p>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+      <!-- My Projects -->
+<section class="mb-4">
+    <div class="container px-4 py-5" id="projects">
+        <h2 class="pb-2 border-bottom text-center">PROJECTS</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+            
+            <!-- Project 1 -->
+            <div class="col">
+                <div class="card project-card" data-aos="fade-up">
+                    <!-- Bootstrap Carousel for multiple images -->
+                    <div id="protect" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/homep.png" class="d-block w-100" alt="Project 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/registerp.png" class="d-block w-100" alt="Project 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/datap.png" class="d-block w-100" alt="Project 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/TPAp.png" class="d-block w-100" alt="Project 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/clientp.png" class="d-block w-100" alt="Project 3">
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#protect" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#protect" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Protecting Cloud Data With Dynamic Security Via Network Coding</h3>
+                        <p class="card-text">
+                            This project secures cloud data using dynamic security techniques with network coding in Java, JDBC, and MySQL. It encrypts data before storage and dynamically updates security keys to prevent unauthorized access. Java handles encryption and data transmission, JDBC connects to MySQL for secure storage, and network coding enhances data integrity and confidentiality.
+                        </p>
+                        <!-- <a href="https://medverse-three.vercel.app/" class="btn btn-primary" target="_blank" rel="noopener">View Frontend</a>
+                        <a href="https://github.com/Srikanth3570/Medverse_BackEnd" class="btn btn-secondary" target="_blank" rel="noopener">View Backend</a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col">
+                <div class="card project-card" data-aos="fade-up">
+                    <!-- Bootstrap Carousel for multiple images -->
+                    <div id="tictactoe" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/tictactoe1.png" class="d-block w-100" alt="Project 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/tictactoe2.png" class="d-block w-100" alt="Project 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/tictactoe3.png" class="d-block w-100" alt="Project 3">
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#tictactoe" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#tictactoe" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title">TICTACTOE GAME</h3>
+                        <p class="card-text">
+                            Tic-Tac-Toe is a simple two-player game built using HTML, CSS, and JavaScript. The game board consists of a 3×3 grid where players take turns marking "X" or "O" in empty cells. The objective is to form a horizontal, vertical, or diagonal line with the same symbol to win. HTML structures the board, CSS enhances its appearance with styling, and JavaScript manages game logic, including turns, win detection, and resets. Players receive real-time feedback, and the game can reset after a win or draw. It’s a great beginner project to learn DOM manipulation, event handling, and basic game logic.
+                        </p>
+                        <!-- <a href="https://github.com/Srikanth3570/Student-Database-Managemet" class="btn btn-primary" target="_blank" rel="noopener">View Frontend</a>
+                        <a href="https://github.com/Srikanth3570/Student-Database-Managemet" class="btn btn-secondary" target="_blank" rel="noopener">View Backend</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col">
+                <div class="card project-card" data-aos="fade-up">
+                    <!-- Bootstrap Carousel for multiple images -->
+                    <div id="student" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/student1.png" class="d-block w-100" alt="Project 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/student2.png" class="d-block w-100" alt="Project 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/student3.png" class="d-block w-100" alt="Project 3">
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#student" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#student" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Student Management System</h3>
+                        <p class="card-text">
+                            The Student Management System is a web-based application developed using Java, JDBC, HTML, CSS, JavaScript, and MySQL, deployed on a Tomcat server. It enables administrators to manage student records, including registration, login, and academic details. The system follows the MVC architecture, utilizing Servlets for backend processing, JSP for dynamic content, and MySQL for data storage. JavaScript ensures client-side validation, enhancing user experience and data integrity.
+                        </p>
+                        <!-- <a href="https://lovescore-one.vercel.app/" class="btn btn-primary" target="_blank" rel="noopener">View Frontend</a>
+                        <a href="https://github.com/Srikanth3570/lovescore" class="btn btn-secondary" target="_blank" rel="noopener">View Backend</a> -->
+                    </div>
+                </div>
+            </div>
+</section>
+
+<!-- conatact me  -->
+<section class="contact-me" id="contact">
+    <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom text-center">Contact Me</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3"></div>
+    
+        <div class="row justify-content-center g-4">
+            <!-- Contact Form Card -->
+            <div class="col-md-6">
+                <div class="card shadow-lg p-4" data-aos="fade-up">
+                    <h3 class="card-title text-center">Get in Touch</h3>
+                    <form id="contact-form" action="https://formspree.io/f/xdkalebq" method="POST" onsubmit="handleFormSubmit(event)">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary custom-btn">Send Message</button>
+                        </div>
+                        <div id="feedback-message" class="mt-3 hidden"></div>
+                    </form>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+                Your message has been sent successfully. We'll get back to you soon!
+            </div>
+            <div class="modal-footer">
+                <!-- Another close button -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+</section>
+
+
+     <!-- footer -->
+
+     <section class="main-footer about-me">
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
+            <!-- Footer Logo and Text -->
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="#home" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <!-- <img src="./title.png" alt="Footer Logo" class="logo-footer"> -->
+              </a>
+              <span class="mb-3 mb-md-0">Copy Rights © 2025 Nikhil</span>
+            </div>
+      
+            <!-- Social Media Links -->
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="text-body-secondary" href="https://www.linkedin.com/in/nikhil-gundaveni-9a09a6259/" target="_blank" rel="noopener noreferrer">
+                  <img src="./linkedin-icon-2.svg" alt="LinkedIn" class="social-icon">
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-body-secondary" href="https://www.instagram.com/nikhil_1025__/" target="_blank" rel="noopener noreferrer">
+                  <img src="./instagram-2016-5.svg" alt="Instagram" class="social-icon">
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-body-secondary" href="https://www.facebook.com/share/1AMFiYbHPP/?mibextid=qi2Omg/" target="_blank" rel="noopener noreferrer">
+                  <img src="./facebook-3-2.svg" alt="Facebook" class="social-icon">
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-body-secondary" href="mailto:nikhilgundaveni1025@gmail.com">
+                  <img src="./gmail.svg" alt="Gmail" class="social-icon">
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </div>
+      </section>
+      
+      
+      
+     
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
